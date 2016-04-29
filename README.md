@@ -1,0 +1,2 @@
+# HearthStoneKillCalculator-Android
+HearthStoneKillCalculator for Android
