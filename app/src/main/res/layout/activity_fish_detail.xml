@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="所有鱼人组合："
+        android:textColor="@color/baseBlack"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lv_fish"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:divider="#000000"
+        android:dividerHeight="2dp">
+    </ListView>
+
+</LinearLayout>
